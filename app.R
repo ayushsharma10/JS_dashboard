@@ -6,15 +6,13 @@
 #
 #    http://shiny.rstudio.com/
 #
-
-jobid <- JS360view1[,2]
-jobid
-as.integer(jobid)
+#setwd("/Users/randhirsingh/JS_dashboard")
+JS360view1 <- read.csv("JS360view1.csv", header=TRUE, sep=",",
+                       colClasses = c('character','integer','character','character','character','character'))
 str(JS360view1)
 
-getwd()
+
 library(shiny)
-JS360view1 <- as.integer(JS360view1$`Job ID`)
 
 
 # Define UI for application that draws a histogram
@@ -50,6 +48,3 @@ server <- function(input, output) {
 # Run the application 
 shinyApp(ui = ui, server = server)
 
-str(JS360view1)
-str(iris)
-getwd()
