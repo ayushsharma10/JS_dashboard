@@ -1,0 +1,12 @@
+name: JS_dashboard
+title: JS_dashboard
+username:
+account: jsview
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 992575
+bundleId: 2170175
+url: https://jsview.shinyapps.io/JS_dashboard/
+when: 1561150510.23734
+asMultiple: FALSE
+asStatic: FALSE
